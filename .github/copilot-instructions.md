@@ -10,3 +10,4 @@
 - No need to create extra directories, keep the project structure flat.
 - Author name is Contoso Developer.
 - While printing an exception always print the full stack trace in the logs and show a user-friendly message to the user.
+- Generate a proper `README.md` file with the project name, description, and instructions to run the script.
