@@ -15,6 +15,9 @@
 - Generate a proper `README.md` file with the project name, description, and instructions to run the script.
 - Sample code for authentication to Kusto
     ```py
-    connection_string = KustoConnectionStringBuilder.with_azure_token_credential(KUSTO_CLUSTER)
-    client = KustoClient(connection_string)
+    credential = DefaultAzureCredential()
+    connection_string = KustoConnectionStringBuilder.with_azure_token_credential(
+        cluster_url,
+        credential
+    )
     ```
