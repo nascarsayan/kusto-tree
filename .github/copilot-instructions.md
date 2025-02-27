@@ -8,7 +8,7 @@
 - Generate relevant `.gitignore` to ignore log files, and other temporary files.
 - Run `poetry init` at the root folder specifying the dependencies, and then run `poetry install` to install the dependencies. **DO NOT CREATE THE `pyproject.toml` MANUALLY, AS YOU DON'T KNOW THE VERSIONS OF THE DEPENDENCIES**.
 - **Do not exit the initial boilerplate creation until everything is running fine using agent mode in github copilot**
-- No need to create extra directories, keep the project structure flat.
+- **No need to create extra directories, run poetry init on the same directory itself, keep the project structure flat.**
 - Author name is Contoso Developer.
 - While printing an exception always print the full stack trace in the logs as well as to stdout for copilot agent to reiterate on the error.
 - Generate a proper `README.md` file with the project name, description, and instructions to run the script.
