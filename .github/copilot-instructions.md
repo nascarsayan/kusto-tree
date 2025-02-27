@@ -13,3 +13,8 @@
 - Author name is Contoso Developer.
 - While printing an exception always print the full stack trace in the logs as well as to stdout for copilot agent to reiterate on the error.
 - Generate a proper `README.md` file with the project name, description, and instructions to run the script.
+- Sample code for authentication to Kusto
+    ```py
+    connection_string = KustoConnectionStringBuilder.with_azure_token_credential(KUSTO_CLUSTER)
+    client = KustoClient(connection_string)
+    ```
